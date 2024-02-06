@@ -40,3 +40,10 @@ function btnNo() {
   }
 
 }
+
+function closeMail() {
+  const mail = document.querySelector('#envelope')
+  const before = document.querySelector('#before')
+  mail.classList.add('is-hidden')
+  before.classList.remove('is-hidden')
+}
